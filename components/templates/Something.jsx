@@ -1,7 +1,8 @@
+
 import React from 'react';
 import t1 from '../../styles/template1.module.scss';
 
-class Onyx extends React.Component {
+class Something extends React.Component {
   constructor() {
     super();
     this.state = {};
@@ -9,7 +10,6 @@ class Onyx extends React.Component {
 
   render() {
     const { data, customStyles } = this.props;
-    
     return (
       <div
         id="t1"
@@ -89,4 +89,12 @@ class Onyx extends React.Component {
   }
 }
 
-export default Onyx;
+export default Something;
+
+
+
+
+
+
+
+
